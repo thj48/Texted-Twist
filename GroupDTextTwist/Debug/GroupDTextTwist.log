@@ -1,0 +1,35 @@
+﻿Build started 4/19/2014 5:20:08 PM.
+     1>Project "C:\Users\csuser\Desktop\groupdtexttwist\GroupDTextTwist\GroupDTextTwist.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Dictionary.cpp FileManager.cpp Game.cpp HighScore.cpp HighScoresController.cpp MyForm.cpp MyFormView.cpp WinCLI.cpp WordManager.cpp
+         Dictionary.cpp
+         FileManager.cpp
+         Game.cpp
+     1>Game.cpp(19): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         HighScore.cpp
+         HighScoresController.cpp
+         MyForm.cpp
+         MyFormView.cpp
+         WinCLI.cpp
+         WordManager.cpp
+     1>WordManager.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\csuser\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\csuser\Desktop\groupdtexttwist\Debug\GroupDTextTwist.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\GroupDTextTwist.MyForm.resources /ASSEMBLYRESOURCE:Debug\GroupDTextTwist.StringTable.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\csuser\Desktop\groupdtexttwist\Debug\GroupDTextTwist.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Dictionary.obj
+         Debug\FileManager.obj
+         Debug\Game.obj
+         Debug\HighScore.obj
+         Debug\HighScoresController.obj
+         Debug\MyForm.obj
+         Debug\MyFormView.obj
+         Debug\WinCLI.obj
+         Debug\WordManager.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         GroupDTextTwist.vcxproj -> C:\Users\csuser\Desktop\groupdtexttwist\Debug\GroupDTextTwist.exe
+     1>Done Building Project "C:\Users\csuser\Desktop\groupdtexttwist\GroupDTextTwist\GroupDTextTwist.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.95
